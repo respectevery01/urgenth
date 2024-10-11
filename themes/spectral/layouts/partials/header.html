@@ -15,10 +15,6 @@
 
     {{ with .Site.Params.description }}<meta name="description" content="{{ . | plainify }}">{{ end }}
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-	<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/images/favicon.png" type="image/png">
-<link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
     {{ range .AlternativeOutputFormats -}}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
