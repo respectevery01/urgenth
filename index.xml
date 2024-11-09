@@ -5,14 +5,15 @@
     <link>https://urgenth.cc/</link>
     <description>Recent content on Urgenth</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Nov 2024 23:11:15 +0800</lastBuildDate>
     <atom:link href="https://urgenth.cc/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://urgenth.cc/posts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://urgenth.cc/posts/</guid>
-      <description></description>
+      <title>Our Mission</title>
+      <link>https://urgenth.cc/our_mission/</link>
+      <pubDate>Sat, 09 Nov 2024 23:11:15 +0800</pubDate>
+      <guid>https://urgenth.cc/our_mission/</guid>
+      <description>&lt;h2 id=&#34;our-mission&#34;&gt;Our Mission&lt;/h2&gt;&#xA;&lt;p&gt;At Urgenth, our mission is to revolutionize the logistics industry by building a transparent, secure, and privacy-centric platform. We understand the importance of trust in the logistics ecosystem, especially in today’s world where data privacy and security are becoming increasingly crucial. As the global supply chain grows more complex, we aim to provide a seamless, efficient, and decentralized solution that addresses the pressing issues of information leakage, fraud, and inefficiency in the logistics process.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

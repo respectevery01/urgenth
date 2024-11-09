@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://urgenth.cc/en/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://urgenth.cc/de/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://urgenth.cc/es/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://urgenth.cc/our_mission/</loc>
+    <lastmod>2024-11-09T23:11:15+08:00</lastmod>
+  </url><url>
+    <loc>https://urgenth.cc/</loc>
+    <lastmod>2024-11-09T23:11:15+08:00</lastmod>
+  </url><url>
+    <loc>https://urgenth.cc/categories/</loc>
+  </url><url>
+    <loc>https://urgenth.cc/series/</loc>
+  </url><url>
+    <loc>https://urgenth.cc/tags/</loc>
+  </url>
+</urlset>
