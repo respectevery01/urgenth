@@ -43,8 +43,14 @@
 									<div id="menu">
 										<ul>
 				              {{ range .Site.Params.menu.main }}
-				              <li><a href="{{ .url | relURL }}">{{ .title }}</a></li>
-				              {{ end }}
+  <li>
+    <a href="{{ .url | relURL }}" 
+       title="{{ .title }}"
+       {{ if .target }}target="{{ .target }}"{{ end }}>
+      {{ .title }}
+    </a>
+  </li>
+{{ end }}
 										</ul>
 									</div>
 								</li>

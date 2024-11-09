@@ -10,28 +10,87 @@ theme = "spectral"
 fancyTitle = "Urgenth" # title for frontpage, may include image
 copyright = "Urgenth"
 description = 'The first logistics blockchain'
-startbuttonText = "Soon"
-startbuttonLink = "#"
+startbuttonText = "join us"
+startbuttonLink = "https://forms.gle/uhy5fLzrE1T3ef4k6"
 body_is_markdown = true
 #custom_css = "foo.css"
 #custom_sass = "bar.scss"
 #images = ["favicon.ico"]
 
 
-
 [[params.menu.main]]
 url = '/'
 title = "Home"
 
-#[[params.menu.main]]
-#url = '/posts/'
-#title = "Posts"
+[[params.menu.main]]
+url = '/our_mission'
+title = "mission"
+target = "_blank"
+
+[[params.menu.main]]
+url = '/Urgenth_White_Paper_V1.pdf'
+title = "Docs"
+target = "_blank"
+
+[[params.menu.main]]
+url = 'mailto:support@urgenth.cc'
+title = "Contact"
+target = "_blank"
 
 [taxonomies]
     tag = "tags"
     category = "categories"
     series = "series"
 
+
+[params.one]
+enable = true
+title = 'Our mission'
+body = '''
+At Urgenth, our mission is to revolutionize the logistics industry by integrating blockchain technology to ensure privacy, security, and transparency. We aim to create a decentralized platform that empowers businesses and consumers with secure, efficient, and traceable logistics solutions, while protecting user data and promoting global supply chain sustainability. Through innovation and collaboration, we strive to set a new standard for the future of logistics.
+'''
+
+[[params.one.icon]]
+icon = "solid fa-cogs"
+style = "1"
+label = "Encryption"
+
+[[params.one.icon]]
+icon = "solid fa-lock"
+style = "2"
+label = "Blockchain"
+
+[[params.one.icon]]
+icon = "solid fa-user-shield"
+style = "3"
+label = "Protecting Your Privacy"
+
+[params.three]
+enable = true
+title = 'Features'
+body = '''
+Urgenth leverages blockchain technology and advanced cryptography to address critical challenges in the logistics industry. Its dual-chain architecture enhances privacy, security, and efficiency, offering a decentralized solution for both businesses and consumers.
+'''
+
+[[params.three.feature]]
+icon = "solid fa-sitemap"
+title = "Decentralized Logistics Network"
+body = "Leverage a decentralized logistics network built on blockchain for faster and more secure transactions."
+
+[[params.three.feature]]
+icon = "solid fa-lock"
+title = "Advanced Cryptography for Privacy"
+body = "Utilize asymmetric encryption, zero-knowledge proofs, and one-time keys to ensure data privacy and prevent unauthorized access."
+
+[[params.three.feature]]
+icon = "solid fa-tachometer-alt"
+title = "Real-Time Tracking & Transparency"
+body = "Track shipments in real-time with full transparency, offering an immutable record of all transactions and activities."
+
+[[params.three.feature]]
+icon = "solid fa-exchange-alt"
+title = "Dual-Chain Structure"
+body = "Our dual-chain architecture consists of Urgenth Origin Chain for enterprise operations and Urgenth One Chain for user transactions, ensuring scalability, privacy, and seamless information exchange across the system."
 
 
 [params.social]
@@ -42,21 +101,6 @@ twitter = "urgentchain"
 #youtube = ""
 #instagram = ""
 #dribble = ""
+
+[params.contact]
 email = "support@urgenth.cc"
-# language specific options
-
-[languages.en]
-weight = 0
-languageName = "English"
-
-[languages.de]
-weight = 10
-languageName = "Deutsch"
-
-[languages.es]
-weight = 10
-languageName = "Español"
-
-
-
-
