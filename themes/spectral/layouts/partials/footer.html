@@ -22,6 +22,9 @@
               {{ with .Site.Params.social.dribble }}
               <li><a href="https://dribble.com/{{ . }}" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
               {{ end }}
+			  {{ with .Site.Params.social.telegram }}
+              <li><a href="https://t.me/{{ . }}" class="icon brands fa-telegram"><span class="label">Telegram</span></a></li>
+              {{ end }}
               {{ with .Site.Params.contact.email }}
               <li><a href="mailto:{{ . }}" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
               {{ end }}

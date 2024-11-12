@@ -101,6 +101,7 @@ twitter = "urgentchain"
 #youtube = ""
 #instagram = ""
 #dribble = ""
+telegram = "urgenthchain"
 
 [params.contact]
 email = "support@urgenth.cc"
