@@ -3,7 +3,8 @@
   <header {{ with .Params.image }}style="background-image: url('{{ . }}')"{{ end }}>
     <h2>{{ i18n "allarticles" }}</h2>
     {{ with .Params.subtitle }}
-    <p>{{ . }}</p>
+    <p>{{ partial "timezone.html" . }}
+</p>
     {{ end }}
 	</header>
 		{{ range .Paginator.Pages }}

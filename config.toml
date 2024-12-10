@@ -18,9 +18,18 @@ body_is_markdown = true
 #images = ["favicon.ico"]
 
 
+timezone = "Europe/London"
+
+
+
 [[params.menu.main]]
 url = '/'
 title = "Home"
+
+[[params.menu.main]]
+url = '/posts'
+title = "Blog"
+target = "_blank"
 
 [[params.menu.main]]
 url = '/our_mission'
@@ -29,7 +38,7 @@ target = "_blank"
 
 [[params.menu.main]]
 url = '/Urgenth_White_Paper_V1.pdf'
-title = "Docs"
+title = "WP"
 target = "_blank"
 
 [[params.menu.main]]

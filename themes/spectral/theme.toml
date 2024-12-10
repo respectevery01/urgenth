@@ -14,3 +14,6 @@ demosite = "https://sbruder.github.io/spectral/"
 [original]
   name = "HTML5UP Spectral"
   homepage = "https://html5up.net/spectral"
+
+[frontmatter]
+timezone = "Europe/London"  # 伦敦时区
