@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Urgenth</title>
-    <link>https://urgenth.cc/</link>
-    <description>Recent content on Urgenth</description>
+    <title>Blog on Urgenth</title>
+    <link>https://urgenth.cc/posts/</link>
+    <description>Recent content in Blog on Urgenth</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Dec 2024 11:30:29 +0800</lastBuildDate>
-    <atom:link href="https://urgenth.cc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://urgenth.cc/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What Is Delog</title>
       <link>https://urgenth.cc/posts/what-is-delog/</link>
       <pubDate>Tue, 10 Dec 2024 11:30:29 +0800</pubDate>
       <guid>https://urgenth.cc/posts/what-is-delog/</guid>
       <description>&lt;h3 id=&#34;delog-pioneering-decentralized-logistics-for-a-connected-future&#34;&gt;&lt;strong&gt;Delog: Pioneering Decentralized Logistics for a Connected Future&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;h4 id=&#34;what-is-logistics&#34;&gt;&lt;strong&gt;What is Logistics?&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;p&gt;Logistics is the art and science of managing the movement of goods, services, and information from their point of origin to the end consumer. It encompasses transportation, storage, distribution, and coordination, ensuring that resources are delivered efficiently and effectively.&lt;/p&gt;&#xA;&lt;p&gt;From ancient trade routes that connected civilizations to modern global supply chains, logistics has played a critical role in shaping economies and societies.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Our Mission</title>
-      <link>https://urgenth.cc/our_mission/</link>
-      <pubDate>Sat, 09 Nov 2024 23:11:15 +0800</pubDate>
-      <guid>https://urgenth.cc/our_mission/</guid>
-      <description>&lt;h2 id=&#34;our-mission&#34;&gt;Our Mission&lt;/h2&gt;&#xA;&lt;p&gt;At Urgenth, our mission is to revolutionize the logistics industry by building a transparent, secure, and privacy-centric platform. We understand the importance of trust in the logistics ecosystem, especially in today’s world where data privacy and security are becoming increasingly crucial. As the global supply chain grows more complex, we aim to provide a seamless, efficient, and decentralized solution that addresses the pressing issues of information leakage, fraud, and inefficiency in the logistics process.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
